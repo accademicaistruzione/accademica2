@@ -1,0 +1,524 @@
+/* codice css per le varie materie */
+
+#wpfront-notification-bar a.wpfront-button,
+#wpfront-notification-bar-editor a.wpfront-button {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+
+#wpfront-notification-bar div.wpfront-close {
+  background: transparent !important;
+  border: none !important;
+  color: white !important;
+  font-size: 18px !important;
+  font-weight: normal !important;
+  top: 20px !important;
+  right: 15px !important;
+}
+
+/* Hide modules on mobile */
+@media (max-width:991px) {
+  section.hide-on-mobile {
+    display: none;
+  }
+}
+
+/* Add login button to mobile header */
+header.header .btn-outline-danger {
+  font-size: 15px;
+  padding: .25rem .75rem;
+  margin-left: auto;
+}
+
+.btn-menu {
+  margin-left: 1.5rem;
+}
+
+@media (min-width:992px) {
+  header.header .btn-outline-danger {
+    display: none;
+  }
+
+  header.header .btns-group .btn-outline-danger {
+    display: inline-block;
+  }
+}
+
+/* Fix font-size in search box */
+#ajaxsearchlite1 .probox .proinput input,
+div.asl_w .probox .proinput input {
+  font-size: 16px;
+}
+
+#drift-frame-controller {
+  z-index: 1000000000 !important;
+}
+
+.truste-button1,
+.truste-button2 {
+  color: black !important;
+}
+
+.truste-messageColumn {
+  font-size: 14px !important;
+}
+
+/* Revised top nav temp styles */
+@media (min-width:992px) {
+  .menu-tabs .tab-content {
+    padding: 2.125rem !important;
+  }
+
+  .menu-tabs .three-colulmns>li ul li {
+    margin: 0 0 8px !important;
+  }
+
+  .menu-tabs .three-colulmns {
+    margin-bottom: 0px !important;
+  }
+
+  .menu-tabs .three-colulmns>li>a {
+    padding-bottom: 8px;
+  }
+}
+
+/* Module library styles */
+.module-library-main-header .card-body {
+  padding-left: 0;
+}
+
+.module-library-main-header h2 {
+  font-size: 30px !important;
+  text-transform: uppercase;
+}
+
+section.module-library-header {
+  padding-bottom: 0 !important;
+}
+
+.module-library-header h2 {
+  border-bottom: 2px solid #ccc !important;
+  background: #f4f4f4 !important;
+  padding: 16px !important;
+  font-size: 24px !important;
+}
+
+/* Fix cut off menu items in top menu dropdown */
+.drop .overflow-hidden {
+  overflow: visible !important;
+}
+
+/* Reduce some of the margins on the Products tab to prevent the links at the bottom from hiding below the promo section */
+@media (min-width: 992px) {
+  .menu-tabs #menu-tab-13913-0 .three-colulmns>li {
+    margin: 0 0 10px 0 !important;
+  }
+
+  .menu-tabs #menu-tab-13913-0 .three-colulmns>li ul li {
+    margin: 0 0 14px;
+  }
+}
+
+/* Temp CSS for module M17. Aligns thumbs top and gets rid of background on desktop. */
+@media (min-width:768px) {
+  .tab-content .img-md-scale {
+    object-position: top;
+    top: 10px;
+  }
+
+  .tab-content .card .col-img {
+    background: none
+  }
+}
+
+/* Centers image in div */
+@media (min-width:768px) {
+  .img-iframe img {
+    margin: 0 auto;
+  }
+}
+
+/* Puts a border around wistia videos */
+.wistia_responsive_padding {
+  border: 1px solid #ccc;
+}
+
+/* Adds box around quotes in tabbed case study module */
+.case-study-quote {
+  background: #00427c;
+  padding: 24px;
+  color: white;
+}
+
+.case-study-quote p:last-child {
+  margin-bottom: 0 !important;
+  font-weight: bold !important;
+}
+
+.case-study-quote+.mt-md-n-1 {
+  margin-top: 24px !important;
+}
+
+/* Style for simple cloud background single columns with only text. */
+.single-column-of-text.container {
+  max-width: none;
+  background: #f4f4f4 !important;
+  padding: 50px 0;
+}
+
+.single-column-of-text.container .row {
+  max-width: 1240px !important;
+  margin: 0 auto;
+}
+
+/* Make "works well with" image bigger */
+.works-well-with img {
+  width: 340px !important;
+  max-width: 340px !important;
+}
+
+/* Unified Solutions wheel */
+/*
+.unified-solutions-wheel .video-wrapper {
+box-shadow:none !important;
+background:transparent;
+position:relative;
+  top:-150px;
+}
+
+.unified-solutions-wheel .video-wrapper lottie-player {
+width:100% !important;
+}
+
+@media (min-width:400px) and (max-width:767px) {
+.unified-solutions-wheel .video-wrapper {
+      top:-80px;
+}
+}
+
+@media (min-width:768px) {
+
+.unified-solutions-wheel .video-wrapper {
+box-shadow:none !important;
+background:transparent;
+position:relative;
+top:-80px;
+}
+}
+*/
+/* Make center image on home page better outcomes module appear in the right spot */
+.home .img-group .img-center {
+  left: 30%;
+  top: 35%;
+}
+
+/* Adjust spacing under video */
+.tabs-area .video-wrapper {
+  margin-bottom: 5px !important;
+}
+
+/* Border around ebook covers */
+.cta-section img {
+  border: 1px solid #ccc;
+}
+
+/* Make footnotes smaller */
+.footnotes {
+  font-size: 14px;
+}
+
+.footnotes li {
+  margin-bottom: 10px;
+}
+
+/* Border around WP cover */
+.single-whitepaper #content img {
+  border: 1px solid #ccc;
+}
+
+/* Align all WP covers to the left */
+.single-whitepaper #content img {
+  float: right;
+  margin: 0 0 4px 1.2em;
+}
+
+@media (max-width:480px) {
+  .single-whitepaper #content img {
+    float: none !important;
+    margin: 0 0 4px 0;
+    display: block;
+  }
+}
+
+/* Make more space between content & sidebar on single pages */
+@media (min-width:768px) {
+  .single #content {
+    padding-right: 24px;
+  }
+}
+
+/* Border on infographics */
+.single-infographic #content img {
+  border: 1px solid #ccc;
+}
+
+/* Fix top gap on infographics */
+.main>.main-section:first-child>.container:first-child>.row:first-child {
+  margin-bottom: -50px;
+}
+
+/* Fix cut off circle in header on product demo TY pages */
+@media (min-width: 768px) {
+  .hero-section {
+    padding-bottom: 4.55rem;
+  }
+}
+
+/* Width of column on thank-you pages for OD webinars & product demos */
+.parent-pageid-4618 .container.lead {
+  max-width: 960px !important;
+  margin-top: -60px !important;
+}
+
+@media (max-width:768px) {
+  .parent-pageid-4618 .container.lead {
+    margin-top: -100px !important;
+  }
+
+  .parent-pageid-4618 .main-section {
+    position: relative;
+    z-index: 1000000;
+  }
+}
+
+@media (max-width:480px) {
+  .parent-pageid-4618 .container.lead {
+    margin-top: -120px !important;
+  }
+}
+
+/* CTA fixes */
+.single .cta h2 {
+  font-size: 30px;
+}
+
+/* Fix margins on bulleted lists on singles */
+.single .single-editor ul ul {
+  margin-top: 16px;
+}
+
+/* Fix alignment of download button on case studies */
+/* @media(min-width:768px) {
+.single .sticky-wrap-header + .main > .main-section:first-child > .container > .row > .col-md-5.pl-lg-0_5 {
+display:flex;
+align-items:center;
+justify-content:center;
+}
+*/
+/* Spacing under videos on singles */
+.single .wistia_responsive_padding {
+  margin-bottom: 18px;
+}
+
+/* Font-size fix on headers on resources */
+@media (min-width:768px) {
+
+  .single #content h2,
+  .single #content .h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* space under images on resources */
+.single #content img {
+  margin-bottom: 16px;
+}
+
+.button-section {
+  padding-top: 0 !important;
+  text-align: center;
+}
+
+/* Featured solutions in nav */
+#menu-item-13913 .col-info .featured-solutions a:hover {
+  color: #de4278 !important;
+}
+
+/* Hide unused partner filters */
+.post-type-archive-partners .fake-select:nth-child(1),
+.post-type-archive-partners .fake-select:nth-child(4) {
+  display: none !important;
+}
+
+/* Adjust H2 */
+.single-editor h2 {
+  font-size: 1.75rem;
+}
+
+@media (min-width:768px) {
+  .single-editor h2 {
+    font-size: 2.3751rem;
+  }
+}
+
+/* Fix color of LinkedIn code for talent */
+.parent-pageid-11276 .main-section span[style="color: #ffffff;"] {
+  color: white !important;
+}
+
+/* Tweaking the navy box on the resources and press releases listing pages */
+.main-section .subscribe p img {
+  width: 27px;
+  vertical-align: middle;
+  margin-top: -4px;
+  margin-right: 3px;
+}
+
+.main-section .subscribe a {
+  color: white;
+}
+
+.main-section .subscribe a:hover {
+  color: #de4278;
+}
+
+/* Hide the "most popular" section on blog posts */
+.blog .main-section.bg-light {
+  display: none !important;
+}
+
+/* Vertically center text in heros on desktop */
+@media (min-width:768px) {
+  .hero-section .col-md-6:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-section .col-md-6:first-child .breadcrumb {
+    margin-top: -25px;
+  }
+}
+
+/* Move back to top button up to clear drift chat */
+.btn-back-to-top {
+  bottom: 140px !important;
+}
+
+/* Allow awards to display five across on desktop */
+@media (min-width: 992px) {
+  .five-up .col-lg-3 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* Tightening up the dropdown menu on desktop */
+@media (min-width: 992px) {
+  .menu-tabs .three-colulmns>li ul li {
+    margin: 0 0 11px !important;
+  }
+}
+
+/* Remove bottom padding from section */
+.no-bottom-padding {
+  padding-bottom: 0 !important;
+}
+
+/* Remove top padding from section */
+.no-top-padding {
+  padding-top: 0 !important;
+}
+
+/* Remove bottom padding from section */
+.half-bottom-padding {
+  padding-bottom: 1.875rem !important;
+}
+
+/* Remove top padding from section */
+.half-top-padding {
+  padding-top: 1.875rem !important;
+}
+
+/* Styling for bundles on sis for small schools page (and others?). Moved it here (instead of on the page) because the backslash for the content attribute was being removed by the head & footer plugin. */
+.bundles ul:not([class]) li:before {
+  content: '\e911' !important;
+  font-size: 12px;
+  background: #71bdb6;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.bundles ul:not([class]) li.not-included:before {
+  background: url(https://www.powerschool.com/wp-content/uploads/2022/07/bullet-plus.png);
+  border-radius: 0;
+  background-size: 20px 20px;
+  text-indent: -1000px;
+}
+
+.bundles ul:not([class]) li.not-included {
+  color: #bec2c4;
+}
+
+.bundles .row>div {
+  box-shadow: 10px 16px 35px 0 rgb(0 66 124 / 12%) !important;
+  margin: 0 20px;
+  padding: 42px 30px 10px;
+}
+
+.bundles h2 {
+  font-size: 24px;
+}
+
+.bundles .row>div {
+  background-image: url(https://www.powerschool.com/wp-content/uploads/2022/07/bundles-1.png);
+  background-repeat: no-repeat;
+  background-size: 48px;
+  background-position: right 20px top 25px;
+}
+
+.bundles .row>div:nth-child(2) {
+  background-image: url(https://www.powerschool.com/wp-content/uploads/2022/07/bundles-2.png);
+  background-color: #ecf2f5;
+}
+
+.bundles .row>div:nth-child(3) {
+  background-image: url(https://www.powerschool.com/wp-content/uploads/2022/07/bundles-3.png);
+}
+
+.bundles .row>div:nth-child(2) h2:before {
+  display: block;
+  content: 'Most Popular';
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #3e3e3e;
+}
+
+.bundles .row>div:nth-child(2) h2 {
+  margin-top: -15px;
+}
+
+@media (max-width:991px) {
+  .bundles .row>div {
+    max-width: 100% !important;
+    flex: 100%;
+    margin-bottom: 48px;
+  }
+}
+
+/* removing black bars from youtube thumbnails */
+.rll-youtube-player img {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  bottom: auto !important;
+}
+
+/* fixing alignment of nav links when 2 lines */
+.sub-nav>li>ul a {
+  display: block !important;
+}
